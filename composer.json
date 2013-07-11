@@ -1,0 +1,20 @@
+{
+    "name": "maldicore/mrc-pagination",
+    "description": "Provides MRC styled pagination slider HTML markup to Laravel4",
+    "authors": [
+        {
+            "name": "Yusuf Abdulla Shunan",
+            "email": "shunan@maldicore.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Maldicore\\MRCPagination": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
