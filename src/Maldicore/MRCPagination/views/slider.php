@@ -3,7 +3,7 @@
 ?>
 
 <?php if ($paginator->getLastPage() > 1): ?>
-    <ul class="pages">
+    <ul>
         <?php echo $presenter->render(); ?>
     </ul>
 <?php endif; ?>
